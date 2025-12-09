@@ -33,6 +33,19 @@
           "resizeMode": "contain",
           "backgroundColor": "#000"
         }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Pozwól aplikacji na dostęp do kamery, aby robić zdjęcia."
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Pozwól aplikacji na dostęp do galerii, aby zapisywać zdjęcia.",
+          "savePhotosPermission": "Pozwól aplikacji na zapisywanie zdjęć do galerii."
+        }
       ]
     ],
     "experiments": {
